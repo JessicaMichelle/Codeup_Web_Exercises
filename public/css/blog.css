@@ -1,0 +1,29 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+h2, 
+h3 {
+	font-family: 'Cherry Cream Soda', cursive;
+}
+
+nav {
+	font-family: 'Neucha', cursive;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+p {
+	font-family: 'Neucha', cursive;
+}
+
+section {
+	width: 900px;
+	height: auto;
+}

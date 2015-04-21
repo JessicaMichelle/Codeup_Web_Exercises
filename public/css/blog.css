@@ -35,6 +35,17 @@ section {
 	height: auto;
 }
 
+img {
+	float: left;
+	margin-left: 580px;
+	width: 200px;
+	height: 200px;
+}
+
+main {
+	clear: both;
+	margin-left: 10px;
+}
 /*----------CLASSES----------*/
 
 .main_nav {

@@ -7,6 +7,8 @@ html {
 
 header {
 	float: right;
+	margin-right: 750px;
+	font-size: 28px;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 }
 
 main {
-
+	margin-right: 20px;
 }
 
 img {
@@ -25,45 +27,50 @@ img {
 
 aside {
 	float: right;
+	background-color: white;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 20px;
+	border: 3px solid black;
 }
 
 footer {
 	float: left;
-	width: 100%;
+	display: inline;
 }
 
-ul {
+footer > ul {
 	list-style: none;
-}
-
-li {
-	
+	display: inline;
 }
 
 /*----------CLASSES----------*/
 
 .top_nav_bar {
+	text-align: center;
 	position: relative;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 30px;
-	background-color: blue;
-	opacity: .20;
+	background-color: #757475;
+	color: white;
+	border: 3px dotted black;
 }
 
 .sidebar {
-	position: absolute;
+	float: left;
 	left: 0px;
-	height: 100%;
+	height: 700px;
 	width: 200px;
-	background-color: red;
-	opacity: .20;
+	background-color: #757475;
+	color: white;
+	border: 3px dotted black;
 }
 
 .footer {
 	float: left;
-	margin-left: 50px;
-	margin-right: 50px;
-
+	bottom: 0px;
+	left: 0px;
+	margin-left: 20px;
 }

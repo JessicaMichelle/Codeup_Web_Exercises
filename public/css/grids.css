@@ -5,14 +5,14 @@ html {
 	box-sizing: inherit;
 }
 
-.container {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 1200px;
+.img-responsive {
+    width: 100%;
+    height: auto;
 }
 
-.row {
-    width:100%;
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .row:after {
@@ -55,18 +55,34 @@ html {
     width: 37.50%;
 }
 
+.column.three-fourth {
+    width: 75%;
+}
+
 .offset-one-half {
-	margin-left: 50%
+	margin-left: 50%;
 }
 
 .offset-one-fourth {
-	margin-left: 25%
+	margin-left: 25%;
 }
 
 .offset-one-third {
-	margin-left: 33.33%
+	margin-left: 33.33%;
 }
 
 .offset-two-third {
-	margin-left: 66.66%
+	margin-left: 66.66%;
+}
+
+.offset-one-eighth {
+    margin-left: 12.50%;
+}
+
+.offset-three-fourth {
+    margin-left: 75%;
+}
+
+.offset-seven-eighth {
+    margin-left: 87.50%
 }

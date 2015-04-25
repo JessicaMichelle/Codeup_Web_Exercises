@@ -1,5 +1,3 @@
-// ignore these lines for now
-// just know that the variable 'color' will end up with a random value from the colors array
 var colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 var color = colors[Math.floor(Math.random()*colors.length)];
 
@@ -30,13 +28,3 @@ var favMessage = (favorite==color) ? "Your favorite color matches." : "Your favo
 
 console.log(message);
 console.log(favMessage);
-
-// TODO: Create a block of if/else statements to check for every color except indigo and violet.
-// TODO: When a color is encountered log a message that tells the color, and an object of that color.
-//       Example: Blue is the color of the sky.
-
-// TODO: Have a final else that will catch indigo and violet.
-// TODO: In the else, log: I do not know anything by that color.
-
-// TODO: Using the ternary operator, conditionally log a statement that
-//       says whether the random color matches your favorite color.

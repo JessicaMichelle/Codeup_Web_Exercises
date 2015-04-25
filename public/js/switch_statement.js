@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 var colors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 var color = colors[Math.floor(Math.random()*colors.length)];

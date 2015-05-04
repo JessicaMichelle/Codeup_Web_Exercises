@@ -66,6 +66,6 @@ library.forEach(function (books, index){
 	console.log("Book #" + (index + 1));
 	console.log("Title: " + books.title);
 	console.log("Author: " + books.author.firstName + " " + books.author.lastName);
-	console.log("Year " + books.year);
+	console.log("Year: " + books.year);
 	console.log("----------");
 });

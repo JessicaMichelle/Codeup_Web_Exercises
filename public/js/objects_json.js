@@ -2,60 +2,60 @@
 
 var library = [
 	{
-		"Title": "Harry Potter And The Sorcers Stone",
-		"Author": {
+		"title": "Harry Potter And The Sorcers Stone",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 1997
+		"year": 1997
 	},
 	{
-		"Title": "Harry Potter And The Chamber Of Secrets",
-		"Author": {
+		"title": "Harry Potter And The Chamber Of Secrets",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 1998
+		"year": 1998
 	},
 	{
-		"Title": "Harry Potter And The Prisoner Of Azkaban",
-		"Author": {
+		"title": "Harry Potter And The Prisoner Of Azkaban",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 1999
+		"year": 1999
 	},
 	{
-		"Title": "Harry Potter And The Goblet Of Fire",
-		"Author": {
+		"title": "Harry Potter And The Goblet Of Fire",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 2000
+		"year": 2000
 	},
 	{
-		"Title": "Harry Potter And The Order Of The Phoenix",
-		"Author": {
+		"title": "Harry Potter And The Order Of The Phoenix",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 2003
+		"year": 2003
 	},
 	{
-		"Title": "Harry Potter And The Half-Blooded Prince",
-		"Author": {
+		"title": "Harry Potter And The Half-Blooded Prince",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 2005
+		"year": 2005
 	},
 	{
-		"Title": "Harry Potter And The Deathly Hallows",
-		"Author": {
+		"title": "Harry Potter And The Deathly Hallows",
+		"author": {
 			"firstName": "J.K.",
 			"lastName": "Rowling"
 		},
-		"Year": 2007
+		"year": 2007
 	}
 ]
 
@@ -64,8 +64,8 @@ var library = [
 library.forEach(function (books, index){
 
 	console.log("Book #" + (index + 1));
-	console.log("Title: " + books.Title);
-	console.log("Author: " + books.Author.firstName + " " + books.Author.lastName);
-	console.log("Year " + books.Year);
+	console.log("Title: " + books.title);
+	console.log("Author: " + books.author.firstName + " " + books.author.lastName);
+	console.log("Year " + books.year);
 	console.log("----------");
 });

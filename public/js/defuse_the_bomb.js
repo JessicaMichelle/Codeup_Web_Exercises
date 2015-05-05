@@ -5,9 +5,9 @@ var interval;
 // TODO: This function needs to be called once every second
 function updateTimer() {
     if (detonationTimer == 0) {
+        document.body.style['background-image'] = "url(/img/explosion.jpg)";
         alert('BOOM!');
-        document.body.innerHTML = '';
-        location.assign("/img/explosion.jpg")
+        // document.body.innerHTML = '';
     } else if (detonationTimer > 0) {
         document.getElementById('timer').innerHTML = detonationTimer;
     };
@@ -21,7 +21,7 @@ interval = setInterval(updateTimer, 1000);
 // cancel the interval/timeout for updateTimer()
 function defuseTheBOM() {
     clearInterval(interval);
-    location.assign("/img/defused.jpg")
+    document.body.style["background-image"] = "url(/img/defused.jpg)";
 }
 
 // Don't modify anything below this line!

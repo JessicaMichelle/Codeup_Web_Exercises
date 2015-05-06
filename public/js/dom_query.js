@@ -42,6 +42,3 @@ var subParagraphs = document.getElementsByClassName("sub-paragraph");
 // todo: change the text in the first sub paragraph to "Mission Accomplished!"
 
 subParagraphs[0].innerHTML = "Mission Accomplished!";
-
-
-

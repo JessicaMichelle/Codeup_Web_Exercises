@@ -26,13 +26,18 @@ var listItems = document.getElementsByTagName("li");
 
 // todo: set text color on every other list item to grey
 
-for (var i = 1; i < listItems.length; i += 2) {
-        var dbid = listItems[i].style["color"] = "#ddd";
+for (var i = 0; i < listItems.length; i++) {
+    if (i % 2 != 0) {
+        listItems[i].style["color"] = "#ddd";
+    };
+    var dbid = listItems[i].attributes["data-dbid"].value;
+    
+    if (dbid == "1") {
+        listItems[i].style["color"] = "blue";
+    }
 };
 
 // todo: set text color of li with dbid = 1 to blue
-
-listItems[0].style["color"] = "blue";
 
 // todo: get all elements with class name sub-paragraph
 // var subParagraphs = ;

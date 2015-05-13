@@ -18,7 +18,8 @@ $(document).ready(function() {
 		"list-style-type":"none"});
 	
 	$("li, p").css({
-		"font-size":"20px"});
+		"font-size":"20px",
+		"width":"300px"});
 	
 	$(".underline").css({
 		"text-decoration":"underline"});

@@ -1,6 +1,29 @@
 "use strict";
 $(document).ready(function() {
-	$("#title").css({
+	var title = $("#title");
+	var paragraphs = $("p");
+	var lineItems = $("li");
+
+// ----------MOUSE EVENTS----------
+
+	title.click(function() {
+		$(this).css("background-color", "blue")
+	});
+
+	paragraphs.dblclick(function() {
+		$(this).css("font-size","18px")
+	});
+
+	lineItems.hover(function() {
+		$(this).css("background-color","#FF0000");
+		},
+		function() {
+			$(this).css("background-color","#FFFFFF");
+		});
+
+// ----------CSS----------
+
+	title.css({
 		"width":"650px"});
 
 	$("main").css({
@@ -8,8 +31,7 @@ $(document).ready(function() {
 		"font-size":"20px",
 		"text-align":"justify"});
 	
-	$("p").css({
-		"font-size":"18px",
+	paragraphs.css({
 		"text-decoration":"underline",
 		"font-weight":"bold",
 		"width":"300px"});
@@ -17,7 +39,7 @@ $(document).ready(function() {
 	$("#list").css({
 		"list-style-type":"none"});
 	
-	$("li, p").css({
+	lineItems.css({
 		"font-size":"20px",
 		"width":"300px"});
 	

@@ -7,8 +7,7 @@ html {
 
 body {
 	background-image: url("../img/green_leaf.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
+	background-size: 150%;
 }
 
 lh {
@@ -17,21 +16,26 @@ lh {
 	font-size: 20px;
 }
 
-ol {
+ol, h3 {
 	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'Josefin Slab', serif;
 }
 
-li {
-	font-weight: bold;
+ol>li {
 	font-size: 22px;
 }
 
 dd {
 	padding-bottom: 15px;
 	font-size: 18px;
+}
+
+ul {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
 }
 
 /*----------CLASSES----------*/

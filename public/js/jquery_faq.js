@@ -3,7 +3,7 @@
 $(document).ready(function() {
 	// Reveals and hides the definition in the list when definition term is clicked
 	$("ol>li").click(function(event) {
-		$(this).next().toggle();
+		$(this).next().fadeToggle(1000);
 	});
 	// Bolds the first line of each unordered list
 	$("ul").each(function(index) {
@@ -11,6 +11,6 @@ $(document).ready(function() {
 	});
 	// Reveals and hides the facts about each National Park when the park name is clicked
 	$("h3").click(function(event) {
-		$(this).next().toggle();
+		$(this).next().fadeToggle(1000);
 	});
 });

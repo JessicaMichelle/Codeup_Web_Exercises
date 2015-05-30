@@ -9,8 +9,8 @@
         var htmlString = "";
 
         $("#button").click(function(){
-                for (var i = 0; i < data.length; i++) {
-                htmlString += "<tr>";
+            for (var i = 0; i < data.length; i++) {
+            htmlString += "<tr>";
                 htmlString += "<td>" + data[i].title + "</td>";
                 htmlString += "<td>" + data[i].quantity + "</td>";
                 htmlString += "<td>" + data[i].price + "</td>";

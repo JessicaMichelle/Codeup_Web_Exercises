@@ -66,3 +66,11 @@ a:hover {
 a:visited {
 	color: #EDEDED;
 }
+
+/*----------RESPONSIVE DESIGN----------*/
+
+@media screen and (min-width:550px) {
+    div {
+        width: 80%;
+    }
+}

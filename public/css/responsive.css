@@ -1,0 +1,49 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+div {
+	width: 80%;
+	height: 100px;
+	float: left;
+	margin: 20px;
+}
+
+/*----------CLASSES----------*/
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.purple {
+	background-color: purple;
+}
+
+/*----------RESPONSIVE DESIGN----------*/
+
+@media screen and (min-width:550px) {
+    div {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    div {
+        width: 25%;
+    }
+}

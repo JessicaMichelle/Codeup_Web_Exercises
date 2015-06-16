@@ -2,12 +2,12 @@
 
 function add($a, $b)
 {
-    echo $a + $b;
+    return $a + $b;
 }
 
 function subtract($a, $b)
 {
-    // Add code here
+    return $a - $b;
 }
 
 function multiply($a, $b)
@@ -20,4 +20,6 @@ function divide($a, $b)
     // Add code here
 }
 
-// Add code to test your functions here
+echo add(4, 3) .PHP_EOL;
+
+?>

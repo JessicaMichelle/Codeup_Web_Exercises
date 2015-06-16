@@ -21,5 +21,6 @@ function divide($a, $b)
 }
 
 echo add(4, 3) .PHP_EOL;
+echo subtract(9, 1) .PHP_EOL;
 
 ?>

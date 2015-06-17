@@ -62,9 +62,9 @@
 	<body>
 		<table>
 			<th>My Favorite Things</th>
-			<?php foreach ($favorite as $things) { ?>
+			<?php foreach ($favorite as $things): ?>
 				<tr><td><?php echo $things; ?></td></tr>
-			<?php } ?>
+			<?php endfor; ?>
 		</table>
 	</body>
 </html>

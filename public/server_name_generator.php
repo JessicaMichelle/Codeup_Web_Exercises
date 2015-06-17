@@ -93,8 +93,8 @@
 	</head>
 	<body>
 		<h1>Your Random Server Name Is:</h1>
-		<h1><?php echo $adjectives[$adjIndex] ?>
-		<?php echo $nouns[$nounIndex] ?></h1>
+		<h1><?= $adjectives[$adjIndex] ?>
+		<?= $nouns[$nounIndex] ?></h1>
 
 		<div class="wrapper">
 			<button class="button" onclick="reloadPage()">Generate New Server Name</button>

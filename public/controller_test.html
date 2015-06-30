@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html ng-app="controllerTest">
+	<head>
+		<style type="text/css">
+			table, tr {
+				border: 1px solid black;
+				text-align: center;
+			}
+		</style>
+		<title>Angular Controller Test</title>
+	</head>
+	<body>
+		<div ng-controller="CartController as cart">
+			<form ng-submit="cart.addItem()">
+				<h1>Cart:</h1>
+				<br>
+				<label for="name">Item Name:</label>
+			    <input type="text" id="name" ng-model="cart.newItem.name" required><br>
+			    
+			    <label for="cost">Item Cost:</label>
+			    <input type="text" id="cost" ng-model="cart.newItem.cost" required><br>
+
+			    <button type="submit">Save Item</button>
+
+			    <table>
+			    	<th>Qty</th>
+			    	<th>Item</th>
+			    	<th>Price</th>
+			    	<tr ng-repeat="items in cart.items">
+			    		<td>{{ items.quantity }}</td>
+			    		<td>{{ items.name }}</td>
+			    		<td>{{ items.cost }}</td>
+			    	</tr>
+
+			    </table>
+			</form>
+		</div>
+
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript"src="js/controller_test.js"></script>
+	</body>
+</html>
